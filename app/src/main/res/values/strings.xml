@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XBee Drone Pro</string>
+    <string name="connect">Połącz</string>
+    <string name="disconnect">Rozłącz</string>
+    <string name="takeoff">Start</string>
+    <string name="land">Ląduj</string>
+    <string name="rth">Powrót</string>
+    <string name="emergency_stop">STOP</string>
+    <string name="photo">Zdjęcie</string>
+    <string name="record">Nagrywanie</string>
+    <string name="calibrate">Kalibracja</string>
+    <string name="nav_fpv">FPV</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_telemetry">Telemetria</string>
+    <string name="wifi_hint">Podłącz telefon do sieci WiFi drona (Drone_XXXXXXX)\nnastępnie wróć i naciśnij POŁĄCZ</string>
+    <string name="no_signal">Brak sygnału kamery</string>
+</resources>

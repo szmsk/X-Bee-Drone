@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Ciało drona -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M24,18 L30,24 L24,30 L18,24 Z" />
+
+    <!-- Ramię lewe górne -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M18,18 L12,12 M12,12 A4,4 0 1,1 12,12"
+        android:strokeColor="#757575"
+        android:strokeWidth="2" />
+
+    <!-- Śmigła (uproszczone kółka) -->
+    <circle android:fillColor="#9E9E9E" android:cx="10" android:cy="10" android:r="5" />
+    <circle android:fillColor="#9E9E9E" android:cx="38" android:cy="10" android:r="5" />
+    <circle android:fillColor="#9E9E9E" android:cx="10" android:cy="38" android:r="5" />
+    <circle android:fillColor="#9E9E9E" android:cx="38" android:cy="38" android:r="5" />
+
+    <!-- Ramiona -->
+    <path
+        android:strokeColor="#616161"
+        android:strokeWidth="2.5"
+        android:pathData="M18,18 L10,10 M30,18 L38,10 M18,30 L10,38 M30,30 L38,38" />
+
+    <!-- Środek/kamera -->
+    <circle android:fillColor="#212121" android:cx="24" android:cy="24" android:r="4" />
+    <circle android:fillColor="#37474F" android:cx="24" android:cy="24" android:r="2" />
+
+</vector>

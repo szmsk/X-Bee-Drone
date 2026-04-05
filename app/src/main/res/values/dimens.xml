@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="joystick_size">160dp</dimen>
+    <dimen name="joystick_margin">16dp</dimen>
+    <dimen name="button_height_action">44dp</dimen>
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="hud_text_size">13sp</dimen>
+    <dimen name="telemetry_value_size">28sp</dimen>
+</resources>

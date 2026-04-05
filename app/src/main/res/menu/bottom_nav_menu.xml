@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fpvFragment"
+        android:icon="@drawable/ic_fpv"
+        android:title="FPV"
+        android:menuCategory="container" />
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_map"
+        android:title="Mapa GPS"
+        android:menuCategory="container" />
+
+    <item
+        android:id="@+id/telemetryFragment"
+        android:icon="@drawable/ic_telemetry"
+        android:title="Telemetria"
+        android:menuCategory="container" />
+
+</menu>

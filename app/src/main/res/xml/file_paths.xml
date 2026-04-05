@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path
+        name="drone_media"
+        path="Pictures/XBeeDrone/" />
+    <external-files-path
+        name="drone_video"
+        path="Movies/XBeeDrone/" />
+    <cache-path
+        name="drone_cache"
+        path="." />
+</paths>
