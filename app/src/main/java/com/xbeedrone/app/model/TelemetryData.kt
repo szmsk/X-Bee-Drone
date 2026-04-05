@@ -1,4 +1,4 @@
-package com.xbeedrone.app.network
+package com.xbeedrone.app.model
 
 data class TelemetryData(
     val batteryPercent: Int = 0,

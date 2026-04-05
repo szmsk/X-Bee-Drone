@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Nagłówek i status -->
+        <!-- Nagłówek -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,23 +47,19 @@
             app:cardBackgroundColor="#1A1A1A"
             app:cardCornerRadius="8dp"
             android:layout_marginBottom="12dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp"
                 android:gravity="center_vertical">
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="⏱ CZAS LOTU"
                     android:textColor="#888888"
                     android:textSize="12sp" />
-
                 <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
-
                 <TextView
                     android:id="@+id/tvFlightTime"
                     android:layout_width="wrap_content"
@@ -73,7 +69,6 @@
                     android:textSize="32sp"
                     android:textStyle="bold"
                     android:fontFamily="monospace" />
-
                 <Button
                     android:id="@+id/btnResetTimer"
                     android:layout_width="wrap_content"
@@ -83,41 +78,34 @@
                     android:backgroundTint="#333333"
                     android:textColor="#FFFFFF"
                     android:layout_marginStart="12dp" />
-
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
-        <!-- BATERIA -->
+        <!-- Bateria -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="#1A1A1A"
             app:cardCornerRadius="8dp"
             android:layout_marginBottom="12dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center_vertical"
                     android:layout_marginBottom="8dp">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="🔋 BATERIA DRONA"
+                        android:text="🔋 BATERIA"
                         android:textColor="#888888"
                         android:textSize="12sp" />
-
                     <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
-
                     <TextView
                         android:id="@+id/tvBatteryValue"
                         android:layout_width="wrap_content"
@@ -126,31 +114,24 @@
                         android:textColor="#43A047"
                         android:textSize="20sp"
                         android:textStyle="bold" />
-
                 </LinearLayout>
-
                 <ProgressBar
                     android:id="@+id/batteryBar"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="16dp"
+                    android:layout_height="14dp"
                     android:max="100"
-                    android:progress="0"
-                    android:progressTint="#43A047"
-                    android:progressBackgroundTint="#333333" />
-
+                    android:progress="0" />
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
-        <!-- WYSOKOŚĆ i PRĘDKOŚĆ -->
+        <!-- Wysokość i Prędkość -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginBottom="12dp">
 
-            <!-- Wysokość -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -158,14 +139,12 @@
                 app:cardBackgroundColor="#1A1A1A"
                 app:cardCornerRadius="8dp"
                 android:layout_marginEnd="6dp">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:gravity="center">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -173,22 +152,18 @@
                         android:textColor="#888888"
                         android:textSize="11sp"
                         android:layout_marginBottom="8dp" />
-
                     <TextView
                         android:id="@+id/tvAltValue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0.00 m"
                         android:textColor="#2196F3"
-                        android:textSize="28sp"
+                        android:textSize="26sp"
                         android:textStyle="bold"
                         android:fontFamily="monospace" />
-
                 </LinearLayout>
-
             </androidx.cardview.widget.CardView>
 
-            <!-- Prędkość -->
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -196,14 +171,12 @@
                 app:cardBackgroundColor="#1A1A1A"
                 app:cardCornerRadius="8dp"
                 android:layout_marginStart="6dp">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:gravity="center">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -211,17 +184,15 @@
                         android:textColor="#888888"
                         android:textSize="11sp"
                         android:layout_marginBottom="8dp" />
-
                     <TextView
                         android:id="@+id/tvSpeedValue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0.0 km/h"
                         android:textColor="#FF9800"
-                        android:textSize="28sp"
+                        android:textSize="26sp"
                         android:textStyle="bold"
                         android:fontFamily="monospace" />
-
                     <ProgressBar
                         android:id="@+id/speedBar"
                         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
@@ -229,12 +200,8 @@
                         android:layout_height="8dp"
                         android:max="40"
                         android:progress="0"
-                        android:progressTint="#FF9800"
-                        android:progressBackgroundTint="#333333"
                         android:layout_marginTop="8dp" />
-
                 </LinearLayout>
-
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
@@ -246,13 +213,11 @@
             app:cardBackgroundColor="#1A1A1A"
             app:cardCornerRadius="8dp"
             android:layout_marginBottom="12dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp">
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -261,80 +226,70 @@
                     android:textSize="12sp"
                     android:layout_marginBottom="12dp" />
 
-                <!-- Szerokość -->
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                     android:orientation="horizontal" android:layout_marginBottom="8dp">
-                    <TextView android:layout_width="120dp" android:layout_height="wrap_content"
-                        android:text="Szerokość (LAT)" android:textColor="#666666" android:textSize="12sp" />
+                    <TextView android:layout_width="110dp" android:layout_height="wrap_content"
+                        android:text="Szerokość" android:textColor="#666666" android:textSize="12sp" />
                     <TextView android:id="@+id/tvLatValue" android:layout_width="wrap_content"
                         android:layout_height="wrap_content" android:text="0.000000°"
-                        android:textColor="#FFFFFF" android:textSize="14sp" android:fontFamily="monospace" />
+                        android:textColor="#FFFFFF" android:textSize="13sp" android:fontFamily="monospace" />
                 </LinearLayout>
 
-                <!-- Długość -->
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                     android:orientation="horizontal" android:layout_marginBottom="8dp">
-                    <TextView android:layout_width="120dp" android:layout_height="wrap_content"
-                        android:text="Długość (LON)" android:textColor="#666666" android:textSize="12sp" />
+                    <TextView android:layout_width="110dp" android:layout_height="wrap_content"
+                        android:text="Długość" android:textColor="#666666" android:textSize="12sp" />
                     <TextView android:id="@+id/tvLonValue" android:layout_width="wrap_content"
                         android:layout_height="wrap_content" android:text="0.000000°"
-                        android:textColor="#FFFFFF" android:textSize="14sp" android:fontFamily="monospace" />
+                        android:textColor="#FFFFFF" android:textSize="13sp" android:fontFamily="monospace" />
                 </LinearLayout>
 
-                <!-- Satelity -->
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                     android:orientation="horizontal" android:layout_marginBottom="8dp">
-                    <TextView android:layout_width="120dp" android:layout_height="wrap_content"
+                    <TextView android:layout_width="110dp" android:layout_height="wrap_content"
                         android:text="Satelity" android:textColor="#666666" android:textSize="12sp" />
                     <TextView android:id="@+id/tvSatValue" android:layout_width="wrap_content"
                         android:layout_height="wrap_content" android:text="0"
-                        android:textColor="#43A047" android:textSize="14sp" android:textStyle="bold" />
+                        android:textColor="#43A047" android:textSize="13sp" android:textStyle="bold" />
                 </LinearLayout>
 
-                <!-- Dystans od Home -->
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                     android:orientation="horizontal">
-                    <TextView android:layout_width="120dp" android:layout_height="wrap_content"
-                        android:text="Dystans (Home)" android:textColor="#666666" android:textSize="12sp" />
+                    <TextView android:layout_width="110dp" android:layout_height="wrap_content"
+                        android:text="Dystans" android:textColor="#666666" android:textSize="12sp" />
                     <TextView android:id="@+id/tvDistValue" android:layout_width="wrap_content"
                         android:layout_height="wrap_content" android:text="-- m"
-                        android:textColor="#FFFFFF" android:textSize="14sp" android:fontFamily="monospace" />
+                        android:textColor="#FFFFFF" android:textSize="13sp" android:fontFamily="monospace" />
                 </LinearLayout>
 
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
-        <!-- SYGNAŁ WiFi -->
+        <!-- Sygnał WiFi -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="#1A1A1A"
             app:cardCornerRadius="8dp"
             android:layout_marginBottom="12dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center_vertical"
                     android:layout_marginBottom="8dp">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="📶 SYGNAŁ WiFi 5GHz"
+                        android:text="📶 SYGNAŁ WiFi"
                         android:textColor="#888888"
                         android:textSize="12sp" />
-
                     <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
-
                     <TextView
                         android:id="@+id/tvSignalValue"
                         android:layout_width="wrap_content"
@@ -343,21 +298,15 @@
                         android:textColor="#FFFFFF"
                         android:textSize="16sp"
                         android:textStyle="bold" />
-
                 </LinearLayout>
-
                 <ProgressBar
                     android:id="@+id/signalBar"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="12dp"
                     android:max="100"
-                    android:progress="0"
-                    android:progressTint="#2196F3"
-                    android:progressBackgroundTint="#333333" />
-
+                    android:progress="0" />
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
         <!-- Przyciski akcji -->
@@ -366,7 +315,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="8dp">
-
             <Button
                 android:id="@+id/btnSetHome"
                 android:layout_width="0dp"
@@ -376,51 +324,15 @@
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#1565C0"
                 android:layout_marginEnd="8dp" />
-
             <Button
-                android:id="@+id/btnResetTimer"
+                android:id="@+id/btnResetTimer2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="⏱ Reset czasu"
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#424242" />
-
         </LinearLayout>
 
-        <!-- Info o dronie -->
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardBackgroundColor="#111111"
-            app:cardCornerRadius="8dp"
-            android:layout_marginTop="16dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="12dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ℹ Overmax X-Bee Drone 9.5 Fold"
-                    android:textColor="#555555"
-                    android:textSize="11sp"
-                    android:layout_marginBottom="4dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Max zasięg: 600m | Max prędkość: 40km/h | Max czas lotu: 22min | Klasa C0"
-                    android:textColor="#444444"
-                    android:textSize="10sp" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
     </LinearLayout>
-
 </ScrollView>
