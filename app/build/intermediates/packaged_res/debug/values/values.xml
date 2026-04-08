@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF5722</color>
+    <color name="background">#0A0A0A</color>
+    <color name="joystick_bg">#CC1E1E1E</color>
+    <color name="joystick_knob">#FF5722</color>
+    <color name="joystick_ring">#A0FF5722</color>
+    <color name="nav_active">#FF5722</color>
+    <color name="nav_inactive">#555555</color>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="status_connected">#43A047</color>
+    <color name="status_error">#E53935</color>
+    <color name="status_info">#1565C0</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="surface">#1A1A1A</color>
+    <color name="surface2">#222222</color>
+    <color name="text_disabled">#444444</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#888888</color>
+    <dimen name="button_height_action">44dp</dimen>
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="hud_text_size">13sp</dimen>
+    <dimen name="joystick_margin">16dp</dimen>
+    <dimen name="joystick_size">160dp</dimen>
+    <dimen name="telemetry_value_size">28sp</dimen>
+    <string name="app_name">XBee Drone Pro</string>
+    <string name="calibrate">Kalibracja</string>
+    <string name="connect">Połącz</string>
+    <string name="disconnect">Rozłącz</string>
+    <string name="emergency_stop">STOP</string>
+    <string name="land">Ląduj</string>
+    <string name="nav_fpv">FPV</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_telemetry">Telemetria</string>
+    <string name="no_signal">Brak sygnału kamery</string>
+    <string name="photo">Zdjęcie</string>
+    <string name="record">Nagrywanie</string>
+    <string name="rth">Powrót</string>
+    <string name="takeoff">Start</string>
+    <string name="wifi_hint">Podłącz telefon do sieci WiFi drona (Drone_XXXXXXX)\nnastępnie wróć i naciśnij POŁĄCZ</string>
+    <style name="DroneAlertDialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="DroneButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">6dp</item>
+    </style>
+    <style name="DroneButton.Blue">
+        <item name="backgroundTint">@color/status_info</item>
+    </style>
+    <style name="DroneButton.Green">
+        <item name="backgroundTint">@color/status_connected</item>
+    </style>
+    <style name="DroneButton.Red">
+        <item name="backgroundTint">@color/status_error</item>
+    </style>
+    <style name="TelemetryCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="Theme.XBeeDrone" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        
+        <item name="android:forceDarkAllowed">false</item>
+
+        
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+</resources>

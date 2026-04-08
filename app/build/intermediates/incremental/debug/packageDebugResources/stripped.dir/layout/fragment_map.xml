@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A">
+
+    <!-- Mapa OSM (pełny ekran) -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!--  PANEL GÓRNY                                                   -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CC000000"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tvWaypointCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waypoints: 0"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/tvHomeSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home: nie ustawiony"
+            android:textColor="#80FFFFFF"
+            android:textSize="11sp" />
+
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
+
+        <!-- Hint dla trybu dodawania waypointów -->
+        <TextView
+            android:id="@+id/tvWaypointHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👆 Dotknij mapę aby dodać waypoint"
+            android:textColor="#FF5722"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!--  PANEL PRZYCISKÓW (prawy bok)                                  -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/topPanel"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Centruj na drona -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnCenterDrone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Centruj na drona"
+            app:srcCompat="@drawable/ic_drone_marker"
+            app:backgroundTint="#FF5722"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Centruj na siebie -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnCenterMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Moja lokalizacja"
+            app:srcCompat="@android:drawable/ic_menu_mylocation"
+            app:backgroundTint="#1565C0"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Dodaj waypoint -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAddWaypoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Dodaj waypoint"
+            app:srcCompat="@android:drawable/ic_input_add"
+            app:backgroundTint="#43A047"
+            android:alpha="0.5"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Wyczyść waypoints -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnClearWaypoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Wyczyść waypoints"
+            app:srcCompat="@android:drawable/ic_menu_delete"
+            app:backgroundTint="#757575"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Wyczyść ślad -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnClearTrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Wyczyść ślad lotu"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            app:backgroundTint="#424242"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Satelita/Mapa -->
+        <Button
+            android:id="@+id/btnMapType"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="SATELITA"
+            android:textSize="9sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#37474F" />
+
+    </LinearLayout>
+
+    <!-- Legenda -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#CC000000"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:layout_marginBottom="4dp">
+            <View android:layout_width="20dp" android:layout_height="3dp" android:background="#FF5722" android:layout_marginEnd="6dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Ślad lotu" android:textColor="#FFFFFF" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <View android:layout_width="20dp" android:layout_height="3dp" android:background="#2196F3" android:layout_marginEnd="6dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Trasa waypointów" android:textColor="#FFFFFF" android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

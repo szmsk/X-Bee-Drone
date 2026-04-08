@@ -1,0 +1,546 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:2:1-67:12
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\klosk\.gradle\caches\transforms-3\f1243e75b8589521ce9cfd8aa0f132e7\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\7e5d92903fa37ca6fd7453456e775e4b\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\5b7a8d7a1285386ddb0beaafa16ca98b\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\7c8c80f3a80644fe1b920e1fb4dcac69\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\061fd0a14581620994a5114406d6c827\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\08cba9f68ce649fabc48bdb8e91fa69b\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\c4c9a8c35fa904af2b918fbaa721d152\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\9de1ce19f9436e12436a5fdfab3307d6\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\432e489d18fb392535b5bfdf935bb630\transformed\navigation-ui-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\klosk\.gradle\caches\transforms-3\b3c26563262647bf3dcf127733e5ba7c\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\klosk\.gradle\caches\transforms-3\a995b2529a50067cac7336527d317b5e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\klosk\.gradle\caches\transforms-3\b05260741436fc2f14a5be3c1ff944da\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\klosk\.gradle\caches\transforms-3\23173c1e8b69541bdabe178a712a22d2\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\klosk\.gradle\caches\transforms-3\025eb09328a916d196161f19dceb1d78\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\klosk\.gradle\caches\transforms-3\8cdbea64ad39503fb58d06e7d850c5fc\transformed\jetified-glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\dfd67691e91fa24c9dfa03dd877ff93e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\klosk\.gradle\caches\transforms-3\3204fafb33adab8896b750ce370b3899\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\klosk\.gradle\caches\transforms-3\c0e8f62f578ef64ac940d4e0501acbb2\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\klosk\.gradle\caches\transforms-3\1b208ff2b307180434a40e77e88fa43d\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\1bbf3729327cf88f5523b3bef1e74ac7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\4963b36b4ecb87db397ef806b1e7fd37\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\f88010e5b0b338db552be51fd53c2bef\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\35160e2236dc24d9722d549494a69c3d\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\7fc4006f33e9ac7074641c2eb43ba257\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\230242d4380a552e6bf5bc8f560acb9e\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fc81c435b032b22d7ac74aa219e39303\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\a56325570b26018c37fe9ae4cbdaf06c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d5c86c09b1fa2ff89857b6938412bee6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\7d76719482ea05a7486e5bc39639c024\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\305ddc8907d2493fa0b9836f081a117d\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-rtsp:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\87a80fff27f850862eb8b5da9ed99179\transformed\jetified-media3-exoplayer-rtsp-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\95b4be610743a50942fc05d3279feaf6\transformed\jetified-media3-exoplayer-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-extractor:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\5c59c487306689edde6244b942daf5dc\transformed\jetified-media3-extractor-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\179b6e3495035076bcb0e469972e05fb\transformed\jetified-media3-container-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\874e5d44fb8df340882f83294811c4f6\transformed\jetified-media3-datasource-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\1682b5f2f1737962d4f6f70a9111cb91\transformed\jetified-media3-decoder-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\70858141eb8411537d8987b0d63d23c1\transformed\jetified-media3-database-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\a21c21f32a3b658bf41655e46cc9ad79\transformed\jetified-media3-common-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-ui:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\e94601d2e8735f9d143c28c5e387200a\transformed\jetified-media3-ui-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\c887cfbc34bbebdc16853103d80c8d3b\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fb7ba699638f1e566c7f789d27b6eabf\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\a0a2fd235873e14790c123d8d8859c10\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\57e59db13f18d53db2a6747ad7af2e62\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\4b9a726653e3b179941c08de1cddbf7d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\888bde7433762cb964d69b9332383455\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\9fa69eb9407b4437fc6939a414c047bc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] C:\Users\klosk\.gradle\caches\transforms-3\37de4f4c472fff6212c32ffa26ef7670\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\9af8f2e73f55b0851b13e309b1d96cf4\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\bd3dddeab14dd6a9cf5068154fc46eb3\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\52f1906825372de0830415d5d0860dd5\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\klosk\.gradle\caches\transforms-3\053bd06d9acbf357024df7735b26805c\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\6268449174f625b45f96d25a96ae8af8\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\ed12bdfa2cb46bcf6deec04539bcfb8c\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\b9dd8b8ff90a7cedfd2c5721e8908405\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\08606adefa708145072baba5840ca825\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d9895e1ea48c88626e01262e43749dac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fce45a02cc49b73fa992743280a300a0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\a74669f330ac03e76b19dca9165bbad9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\klosk\.gradle\caches\transforms-3\76331196e27430f62ca6470e6dcbcabc\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\klosk\.gradle\caches\transforms-3\3ffcb845363702be43af8e887dd7ac5a\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\cc987dcef767f27a07dd3109c70bbc10\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\483c17ff8c60e34125759ee9e7b1b521\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\klosk\.gradle\caches\transforms-3\25ce3a4c92f938dfff84bb7a51e340c1\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\b967700dbb390028a85b104980b782cc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\6f29cc76583a86f9213e783bbbb1b558\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\c1bcfa352b03ec899478f9c4b3ff7163\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\klosk\.gradle\caches\transforms-3\a0ac6a45e649c22d64a5bc4c382e290f\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:2:11-57
+	android:versionCode
+		INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:3:5-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\95b4be610743a50942fc05d3279feaf6\transformed\jetified-media3-exoplayer-1.2.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\95b4be610743a50942fc05d3279feaf6\transformed\jetified-media3-exoplayer-1.2.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\a21c21f32a3b658bf41655e46cc9ad79\transformed\jetified-media3-common-1.2.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\a21c21f32a3b658bf41655e46cc9ad79\transformed\jetified-media3-common-1.2.1\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:17:5-18:38
+	android:maxSdkVersion
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:18:9-35
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:19:5-20:38
+	android:maxSdkVersion
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:20:9-35
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:23:22-63
+application
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:25:5-66:19
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:25:5-66:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\klosk\.gradle\caches\transforms-3\b3c26563262647bf3dcf127733e5ba7c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\klosk\.gradle\caches\transforms-3\b3c26563262647bf3dcf127733e5ba7c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\klosk\.gradle\caches\transforms-3\a995b2529a50067cac7336527d317b5e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\klosk\.gradle\caches\transforms-3\a995b2529a50067cac7336527d317b5e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\a74669f330ac03e76b19dca9165bbad9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\a74669f330ac03e76b19dca9165bbad9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:29:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:34:9-43
+	tools:ignore
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:35:9-36
+	android:roundIcon
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:30:9-54
+	android:icon
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:28:9-43
+	android:allowBackup
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:32:9-47
+	android:usesCleartextTraffic
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:26:9-41
+activity#com.xbeedrone.controller.ui.main.SplashActivity
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:40:13-49
+	android:exported
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:38:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:43:27-74
+activity#com.xbeedrone.controller.ui.main.MainActivity
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:47:9-52:66
+	android:screenOrientation
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:49:13-50
+	android:windowSoftInputMode
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:51:13-56
+	android:exported
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:50:13-37
+	android:theme
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:52:13-63
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:48:13-49
+activity#com.xbeedrone.controller.ui.camera.CameraActivity
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:54:9-58:66
+	android:screenOrientation
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:56:13-50
+	android:exported
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:57:13-37
+	android:theme
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:58:13-63
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:55:13-53
+activity#com.xbeedrone.controller.ui.map.MapActivity
+ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:60:9-64:66
+	android:screenOrientation
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:62:13-50
+	android:exported
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:63:13-37
+	android:theme
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:64:13-63
+	android:name
+		ADDED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:61:13-47
+uses-sdk
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\klosk\.gradle\caches\transforms-3\f1243e75b8589521ce9cfd8aa0f132e7\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\klosk\.gradle\caches\transforms-3\f1243e75b8589521ce9cfd8aa0f132e7\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\7e5d92903fa37ca6fd7453456e775e4b\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\7e5d92903fa37ca6fd7453456e775e4b\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\5b7a8d7a1285386ddb0beaafa16ca98b\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\5b7a8d7a1285386ddb0beaafa16ca98b\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\7c8c80f3a80644fe1b920e1fb4dcac69\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\7c8c80f3a80644fe1b920e1fb4dcac69\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\061fd0a14581620994a5114406d6c827\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\061fd0a14581620994a5114406d6c827\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\08cba9f68ce649fabc48bdb8e91fa69b\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\08cba9f68ce649fabc48bdb8e91fa69b\transformed\navigation-fragment-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\c4c9a8c35fa904af2b918fbaa721d152\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\c4c9a8c35fa904af2b918fbaa721d152\transformed\navigation-fragment-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\9de1ce19f9436e12436a5fdfab3307d6\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\9de1ce19f9436e12436a5fdfab3307d6\transformed\navigation-ui-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\432e489d18fb392535b5bfdf935bb630\transformed\navigation-ui-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] C:\Users\klosk\.gradle\caches\transforms-3\432e489d18fb392535b5bfdf935bb630\transformed\navigation-ui-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\klosk\.gradle\caches\transforms-3\b3c26563262647bf3dcf127733e5ba7c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\klosk\.gradle\caches\transforms-3\b3c26563262647bf3dcf127733e5ba7c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\klosk\.gradle\caches\transforms-3\a995b2529a50067cac7336527d317b5e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\klosk\.gradle\caches\transforms-3\a995b2529a50067cac7336527d317b5e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\klosk\.gradle\caches\transforms-3\b05260741436fc2f14a5be3c1ff944da\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\klosk\.gradle\caches\transforms-3\b05260741436fc2f14a5be3c1ff944da\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\klosk\.gradle\caches\transforms-3\23173c1e8b69541bdabe178a712a22d2\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\klosk\.gradle\caches\transforms-3\23173c1e8b69541bdabe178a712a22d2\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\klosk\.gradle\caches\transforms-3\025eb09328a916d196161f19dceb1d78\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\klosk\.gradle\caches\transforms-3\025eb09328a916d196161f19dceb1d78\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\klosk\.gradle\caches\transforms-3\8cdbea64ad39503fb58d06e7d850c5fc\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\klosk\.gradle\caches\transforms-3\8cdbea64ad39503fb58d06e7d850c5fc\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\dfd67691e91fa24c9dfa03dd877ff93e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\dfd67691e91fa24c9dfa03dd877ff93e\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\klosk\.gradle\caches\transforms-3\3204fafb33adab8896b750ce370b3899\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\klosk\.gradle\caches\transforms-3\3204fafb33adab8896b750ce370b3899\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\klosk\.gradle\caches\transforms-3\c0e8f62f578ef64ac940d4e0501acbb2\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\klosk\.gradle\caches\transforms-3\c0e8f62f578ef64ac940d4e0501acbb2\transformed\jetified-activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\klosk\.gradle\caches\transforms-3\1b208ff2b307180434a40e77e88fa43d\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\klosk\.gradle\caches\transforms-3\1b208ff2b307180434a40e77e88fa43d\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\1bbf3729327cf88f5523b3bef1e74ac7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\1bbf3729327cf88f5523b3bef1e74ac7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\4963b36b4ecb87db397ef806b1e7fd37\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\4963b36b4ecb87db397ef806b1e7fd37\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\f88010e5b0b338db552be51fd53c2bef\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\f88010e5b0b338db552be51fd53c2bef\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\35160e2236dc24d9722d549494a69c3d\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\35160e2236dc24d9722d549494a69c3d\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\7fc4006f33e9ac7074641c2eb43ba257\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\7fc4006f33e9ac7074641c2eb43ba257\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\230242d4380a552e6bf5bc8f560acb9e\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\230242d4380a552e6bf5bc8f560acb9e\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fc81c435b032b22d7ac74aa219e39303\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fc81c435b032b22d7ac74aa219e39303\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\a56325570b26018c37fe9ae4cbdaf06c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\a56325570b26018c37fe9ae4cbdaf06c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d5c86c09b1fa2ff89857b6938412bee6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d5c86c09b1fa2ff89857b6938412bee6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\7d76719482ea05a7486e5bc39639c024\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\7d76719482ea05a7486e5bc39639c024\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\305ddc8907d2493fa0b9836f081a117d\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\305ddc8907d2493fa0b9836f081a117d\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-rtsp:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\87a80fff27f850862eb8b5da9ed99179\transformed\jetified-media3-exoplayer-rtsp-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-rtsp:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\87a80fff27f850862eb8b5da9ed99179\transformed\jetified-media3-exoplayer-rtsp-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\95b4be610743a50942fc05d3279feaf6\transformed\jetified-media3-exoplayer-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\95b4be610743a50942fc05d3279feaf6\transformed\jetified-media3-exoplayer-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\5c59c487306689edde6244b942daf5dc\transformed\jetified-media3-extractor-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\5c59c487306689edde6244b942daf5dc\transformed\jetified-media3-extractor-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\179b6e3495035076bcb0e469972e05fb\transformed\jetified-media3-container-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\179b6e3495035076bcb0e469972e05fb\transformed\jetified-media3-container-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\874e5d44fb8df340882f83294811c4f6\transformed\jetified-media3-datasource-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\874e5d44fb8df340882f83294811c4f6\transformed\jetified-media3-datasource-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\1682b5f2f1737962d4f6f70a9111cb91\transformed\jetified-media3-decoder-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\1682b5f2f1737962d4f6f70a9111cb91\transformed\jetified-media3-decoder-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\70858141eb8411537d8987b0d63d23c1\transformed\jetified-media3-database-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\70858141eb8411537d8987b0d63d23c1\transformed\jetified-media3-database-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\a21c21f32a3b658bf41655e46cc9ad79\transformed\jetified-media3-common-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\a21c21f32a3b658bf41655e46cc9ad79\transformed\jetified-media3-common-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\e94601d2e8735f9d143c28c5e387200a\transformed\jetified-media3-ui-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.2.1] C:\Users\klosk\.gradle\caches\transforms-3\e94601d2e8735f9d143c28c5e387200a\transformed\jetified-media3-ui-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\c887cfbc34bbebdc16853103d80c8d3b\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\c887cfbc34bbebdc16853103d80c8d3b\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fb7ba699638f1e566c7f789d27b6eabf\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fb7ba699638f1e566c7f789d27b6eabf\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\a0a2fd235873e14790c123d8d8859c10\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\a0a2fd235873e14790c123d8d8859c10\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\57e59db13f18d53db2a6747ad7af2e62\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\57e59db13f18d53db2a6747ad7af2e62\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\4b9a726653e3b179941c08de1cddbf7d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\4b9a726653e3b179941c08de1cddbf7d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\888bde7433762cb964d69b9332383455\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\888bde7433762cb964d69b9332383455\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\9fa69eb9407b4437fc6939a414c047bc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\9fa69eb9407b4437fc6939a414c047bc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\klosk\.gradle\caches\transforms-3\37de4f4c472fff6212c32ffa26ef7670\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\klosk\.gradle\caches\transforms-3\37de4f4c472fff6212c32ffa26ef7670\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\9af8f2e73f55b0851b13e309b1d96cf4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\9af8f2e73f55b0851b13e309b1d96cf4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\bd3dddeab14dd6a9cf5068154fc46eb3\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\bd3dddeab14dd6a9cf5068154fc46eb3\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\52f1906825372de0830415d5d0860dd5\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\klosk\.gradle\caches\transforms-3\52f1906825372de0830415d5d0860dd5\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\klosk\.gradle\caches\transforms-3\053bd06d9acbf357024df7735b26805c\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\klosk\.gradle\caches\transforms-3\053bd06d9acbf357024df7735b26805c\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\6268449174f625b45f96d25a96ae8af8\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\6268449174f625b45f96d25a96ae8af8\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\ed12bdfa2cb46bcf6deec04539bcfb8c\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\ed12bdfa2cb46bcf6deec04539bcfb8c\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\b9dd8b8ff90a7cedfd2c5721e8908405\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\b9dd8b8ff90a7cedfd2c5721e8908405\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\08606adefa708145072baba5840ca825\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\08606adefa708145072baba5840ca825\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d9895e1ea48c88626e01262e43749dac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d9895e1ea48c88626e01262e43749dac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fce45a02cc49b73fa992743280a300a0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\fce45a02cc49b73fa992743280a300a0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\a74669f330ac03e76b19dca9165bbad9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\a74669f330ac03e76b19dca9165bbad9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\klosk\.gradle\caches\transforms-3\76331196e27430f62ca6470e6dcbcabc\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\klosk\.gradle\caches\transforms-3\76331196e27430f62ca6470e6dcbcabc\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\klosk\.gradle\caches\transforms-3\3ffcb845363702be43af8e887dd7ac5a\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\klosk\.gradle\caches\transforms-3\3ffcb845363702be43af8e887dd7ac5a\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\cc987dcef767f27a07dd3109c70bbc10\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\cc987dcef767f27a07dd3109c70bbc10\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\483c17ff8c60e34125759ee9e7b1b521\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\483c17ff8c60e34125759ee9e7b1b521\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\klosk\.gradle\caches\transforms-3\25ce3a4c92f938dfff84bb7a51e340c1\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\klosk\.gradle\caches\transforms-3\25ce3a4c92f938dfff84bb7a51e340c1\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\b967700dbb390028a85b104980b782cc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\b967700dbb390028a85b104980b782cc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\6f29cc76583a86f9213e783bbbb1b558\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\6f29cc76583a86f9213e783bbbb1b558\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\c1bcfa352b03ec899478f9c4b3ff7163\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\c1bcfa352b03ec899478f9c4b3ff7163\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\klosk\.gradle\caches\transforms-3\a0ac6a45e649c22d64a5bc4c382e290f\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\klosk\.gradle\caches\transforms-3\a0ac6a45e649c22d64a5bc4c382e290f\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\klosk\.gradle\caches\transforms-3\611e007b0d5907cda5654df4c8b425df\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.xbeedrone.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.xbeedrone.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:24:9-45
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

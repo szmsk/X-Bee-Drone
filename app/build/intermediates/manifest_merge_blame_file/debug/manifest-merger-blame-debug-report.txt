@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xbeedrone.controller"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Network -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+16-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:10:5-76
+16-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:10:22-73
+17
+18    <!-- Location (GPS) -->
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:14:5-81
+20-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:14:22-78
+21
+22    <!-- Storage -->
+23    <uses-permission
+23-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:17:5-18:38
+24        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+24-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:17:22-78
+25        android:maxSdkVersion="28" />
+25-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:18:9-35
+26    <uses-permission
+26-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:19:5-20:38
+27        android:name="android.permission.READ_EXTERNAL_STORAGE"
+27-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:19:22-77
+28        android:maxSdkVersion="32" />
+28-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:20:9-35
+29    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+29-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:21:5-76
+29-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:21:22-73
+30    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+30-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:22:5-75
+30-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:22:22-72
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:23:5-66
+31-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:23:22-63
+32
+33    <permission
+33-->[androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.xbeedrone.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.xbeedrone.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+38
+39    <supports-screens
+39-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:9:5-12:40
+40        android:anyDensity="true"
+40-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:10:9-34
+41        android:largeScreens="true"
+41-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:11:9-36
+42        android:normalScreens="true" />
+42-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:12:9-37
+43
+44    <uses-feature
+44-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:14:5-16:36
+45        android:name="android.hardware.location.network"
+45-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:15:9-57
+46        android:required="false" />
+46-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:16:9-33
+47    <uses-feature
+47-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:17:5-19:36
+48        android:name="android.hardware.location.gps"
+48-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:18:9-53
+49        android:required="false" />
+49-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:19:9-33
+50    <uses-feature
+50-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:20:5-22:36
+51        android:name="android.hardware.telephony"
+51-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:21:9-50
+52        android:required="false" />
+52-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:22:9-33
+53    <uses-feature
+53-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:23:5-25:36
+54        android:name="android.hardware.wifi"
+54-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:24:9-45
+55        android:required="false" />
+55-->[org.osmdroid:osmdroid-android:6.1.17] C:\Users\klosk\.gradle\caches\transforms-3\a351c63f4e629a43dab5e35d60282788\transformed\jetified-osmdroid-android-6.1.17\AndroidManifest.xml:25:9-33
+56
+57    <application
+57-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:25:5-66:19
+58        android:name="com.xbeedrone.controller.DroneApplication"
+58-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:26:9-41
+59        android:allowBackup="true"
+59-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:27:9-35
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.12.0] C:\Users\klosk\.gradle\caches\transforms-3\b4e4f691e4e9f09b2d7e8876bd9a90e3\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:extractNativeLibs="false"
+63        android:hardwareAccelerated="true"
+63-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:34:9-43
+64        android:icon="@mipmap/ic_launcher"
+64-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:28:9-43
+65        android:label="@string/app_name"
+65-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:29:9-41
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:30:9-54
+67        android:supportsRtl="true"
+67-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:31:9-35
+68        android:testOnly="true"
+69        android:theme="@style/Theme.XBeeDrone"
+69-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:32:9-47
+70        android:usesCleartextTraffic="true" >
+70-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:33:9-44
+71        <activity
+71-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:37:9-45:20
+72            android:name="com.xbeedrone.controller.ui.main.SplashActivity"
+72-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:38:13-51
+73            android:exported="true"
+73-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:39:13-36
+74            android:screenOrientation="portrait" >
+74-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:40:13-49
+75            <intent-filter>
+75-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:41:13-44:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:42:17-69
+76-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:42:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:43:17-77
+78-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:43:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:47:9-52:66
+82            android:name="com.xbeedrone.controller.ui.main.MainActivity"
+82-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:48:13-49
+83            android:exported="false"
+83-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:50:13-37
+84            android:screenOrientation="landscape"
+84-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:49:13-50
+85            android:theme="@style/Theme.XBeeDrone.NoActionBar"
+85-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:52:13-63
+86            android:windowSoftInputMode="adjustNothing" />
+86-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:51:13-56
+87        <activity
+87-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:54:9-58:66
+88            android:name="com.xbeedrone.controller.ui.camera.CameraActivity"
+88-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:55:13-53
+89            android:exported="false"
+89-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:57:13-37
+90            android:screenOrientation="landscape"
+90-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:56:13-50
+91            android:theme="@style/Theme.XBeeDrone.NoActionBar" />
+91-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:58:13-63
+92        <activity
+92-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:60:9-64:66
+93            android:name="com.xbeedrone.controller.ui.map.MapActivity"
+93-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:61:13-47
+94            android:exported="false"
+94-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:63:13-37
+95            android:screenOrientation="landscape"
+95-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:62:13-50
+96            android:theme="@style/Theme.XBeeDrone.NoActionBar" />
+96-->C:\Users\klosk\Downloads\XBeeDroneApp\XBeeDroneApp\app\src\main\AndroidManifest.xml:64:13-63
+97        <activity
+97-->[pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+98            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+98-->[pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+99            android:exported="false"
+99-->[pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+100            android:label=""
+100-->[pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+101            android:theme="@style/EasyPermissions.Transparent" />
+101-->[pub.devrel:easypermissions:3.0.0] C:\Users\klosk\.gradle\caches\transforms-3\f69f7e6fbad483569562c95d757ef627\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+102
+103        <provider
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+105            android:authorities="com.xbeedrone.controller.androidx-startup"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+106            android:exported="false" >
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+107            <meta-data
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+109                android:value="androidx.startup" />
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\klosk\.gradle\caches\transforms-3\66bda79b5d316ede0f0316391ba5767b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+112                android:value="androidx.startup" />
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\klosk\.gradle\caches\transforms-3\0b76dd5cdafae08126cd5a8201667d0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+115                android:value="androidx.startup" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+116        </provider>
+117
+118        <uses-library
+118-->[androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+119            android:name="androidx.window.extensions"
+119-->[androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+121        <uses-library
+121-->[androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+122            android:name="androidx.window.sidecar"
+122-->[androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0] C:\Users\klosk\.gradle\caches\transforms-3\d12ce6a152d7fc362cba33f77da9a5e4\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+124
+125        <receiver
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+126            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+127            android:directBootAware="false"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+128            android:enabled="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+129            android:exported="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+130            android:permission="android.permission.DUMP" >
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+132                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+135                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+138                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+141                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\klosk\.gradle\caches\transforms-3\b3a3a10fad9b089f296393b77a8d01ce\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+142            </intent-filter>
+143        </receiver>
+144    </application>
+145
+146</manifest>

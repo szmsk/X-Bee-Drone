@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.xbeedrone.controller.app-mergeDebugResources-54:/layout/activity_splash.xml",
+        "source": "com.xbeedrone.controller.app-main-57:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.xbeedrone.controller.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "com.xbeedrone.controller.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.xbeedrone.controller.app-mergeDebugResources-54:/layout/fragment_fpv.xml",
+        "source": "com.xbeedrone.controller.app-main-57:/layout/fragment_fpv.xml"
+    },
+    {
+        "merged": "com.xbeedrone.controller.app-mergeDebugResources-54:/layout/fragment_telemetry.xml",
+        "source": "com.xbeedrone.controller.app-main-57:/layout/fragment_telemetry.xml"
+    },
+    {
+        "merged": "com.xbeedrone.controller.app-mergeDebugResources-54:/layout/fragment_map.xml",
+        "source": "com.xbeedrone.controller.app-main-57:/layout/fragment_map.xml"
+    }
+]

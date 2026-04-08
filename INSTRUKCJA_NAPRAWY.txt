@@ -1,0 +1,51 @@
+====================================================
+  XBee Drone App - Instrukcja naprawy błędów
+====================================================
+
+PROBLEM: "Unresolved class 'DroneApplication'" i "Unresolved class 'MainActivity'"
+PRZYCZYNA: Brakujący plik gradle-wrapper.jar (Android Studio nie może uruchomić Gradle)
+
+----------------------------------------------------
+ROZWIĄZANIE - wykonaj DOKŁADNIE te kroki:
+----------------------------------------------------
+
+KROK 1: Otwórz projekt w Android Studio
+  File → Open → wybierz folder XBeeDroneApp
+
+KROK 2: Dodaj gradle-wrapper.jar przez Android Studio
+  W menu: Tools → Gradle → Add Gradle Wrapper
+  (Android Studio doda brakujący plik automatycznie)
+
+  LUB alternatywnie:
+  W terminalu w folderze projektu wpisz:
+  > gradle wrapper --gradle-version 8.4
+
+KROK 3: Zsynchronizuj Gradle
+  File → Sync Project with Gradle Files
+  (lub kliknij "Sync Now" w żółtym pasku u góry)
+
+KROK 4: Poczekaj na zakończenie synchronizacji
+  Pasek postępu na dole ekranu musi zniknąć.
+
+KROK 5: Zbuduj projekt
+  Build → Clean Project
+  Build → Rebuild Project
+
+KROK 6: Uruchom na telefonie
+  ▶ Run 'app' (Shift+F10)
+
+----------------------------------------------------
+JEŚLI NADAL SĄ BŁĘDY:
+----------------------------------------------------
+
+Opcja A - Invalidate Caches:
+  File → Invalidate Caches → Invalidate and Restart
+
+Opcja B - usuń foldery .gradle i .idea:
+  Usuń ręcznie z folderu projektu:
+    - .gradle/
+    - .idea/
+    - app/build/
+  Potem ponownie otwórz projekt w Android Studio.
+
+====================================================
